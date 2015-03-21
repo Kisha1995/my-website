@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		#img9 {
+		position: relative;
+		width: 200%;
+		height: 200p%;
+		}
+		#img9 img{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background: url(images/img9.jpg);
+			opacity: 0.5;
+			margin: auto;
+			z-index: -1;
+			}
+	</body>
+</html>
